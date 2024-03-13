@@ -1,0 +1,151 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LakshyaClasses - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        #top_container {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            gap: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            box-sizing: border-box;
+        }
+
+        /* Style for demonstration purposes */
+        .grid-item {
+            background-color: #ddd;
+            border-radius: 20px;
+        }
+
+        @media (max-width: 1200px) {
+            #top_container {
+                grid-template-columns: 1fr;
+                /* One column for screens up to 1200px */
+            }
+        }
+    </style>
+
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div id="top_container">
+
+        <div class="grid-item">
+
+            <!-- Quality of Courses Section -->
+            <section class="bg-white py-8 mx-10">
+                <div class="container mx-auto">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-3xl font-semibold">Quality of Our Courses</h2>
+                        <!-- Button for Quality of Courses -->
+                        <a href="#quality"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">Explore
+                            Courses</a>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        We offer high-quality courses for students from class 1 to 12th. Our curriculum covers all
+                        subjects,
+                        competitive examination aptitude, maths, reasoning, English, and various computer-related
+                        courses.
+                        Proper notes, tricks, videos, quizzes, tests, and exams are provided to ensure a comprehensive
+                        learning
+                        experience.
+                    </p>
+                    <!-- Add any other content or media here -->
+                </div>
+            </section>
+
+            <!-- Expert Instructors Section -->
+            <section class="bg-gray-100 py-8 mx-10">
+                <div class="container mx-auto">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-3xl font-semibold">Expert Instructors</h2>
+                        <!-- Button for Expert Instructors -->
+                        <a href="instructor.html"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">Meet
+                            Instructors</a>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        Our courses are designed and delivered by expert instructors who have extensive experience in
+                        their
+                        respective fields. They provide proper notes, tricks, videos, quizzes, tests, and exams to
+                        ensure a
+                        comprehensive learning experience.
+                    </p>
+                    <!-- Add any other content or media here -->
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section class="bg-white py-8 mx-10">
+                <div class="container mx-auto">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-3xl font-semibold">Certifications</h2>
+                        <!-- Button for Certifications -->
+                        <a href="#certifications"
+                            class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300">View
+                            Certifications</a>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        Upon successful completion of our courses, students receive certifications to showcase their
+                        achievements. Our certifications are recognized and valued in the industry.
+                    </p>
+                    <!-- Add any other content or media here -->
+                </div>
+            </section>
+        </div>
+
+        <div class="grid-item">
+            <h1><strong> VISION</strong></h1>
+            <h1>Welcome to Learning Platform</h1>
+            <p>
+            <h2>Explore, Learn, Succeed - Your Path to Excellence.</h2>
+            <!-- </p>
+            <p> -->
+            <h4>
+                Empower Minds, Illuminate Futures. Where Infinite Learning Possibilities at One Platform. Your Journey
+                to Knowledge Begins Here. You can get best building brighter futures for you child through education.
+            </h4>
+            </p>
+            <a href="#subjects" class="cta-button">Explore Courses</a>
+
+            <br><br><br><br><br>
+
+            <h1>Our Vision</h1>
+            <p>
+            <h3>"Welcome to our comprehensive educational platform, catering to students from class 1 to 12 and
+                undergraduate levels. We offer in-depth learning across a diverse range of subjects, competitive exam
+                preparation, and a suite of computer courses, including computer basics, hardware and software design,
+                data structures, networking and security, and programming languages like C, C++, and Python. Our focus
+                is on delivering high-quality education through live and recorded classes, interactive sessions,
+                structured curricula, and practice assessments. Join us to embark on a holistic learning journey that
+                empowers students with knowledge across academic and computer-related disciplines."</h3>
+            </p>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Include the header using JavaScript -->
+    <script src="include-header.js"></script>
+
+</body>
+
+</html>

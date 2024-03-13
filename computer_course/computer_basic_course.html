@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Computer Skills Course</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 75% 25%;
+            margin: 50px 50px;
+        }
+
+        .grid-course-index {
+            grid-column: 1 / 2;
+            background-color: lightblue;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+
+        .grid-course-other {
+            display: flex;
+            flex-direction: column;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+        .instructor,
+        .ourse-info {
+            height: fit-content;
+        }
+
+        .instructor {
+            background-color: lightgreen;
+        }
+
+        .ourse-info {
+            background-color: lightcoral;
+        }
+
+        .course-info {
+            /* Styles for the course information container */
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .course-info {
+            /* Styles for the course information container */
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            /* Center align the content */
+        }
+
+        .price-label {
+            /* Styles for the price labels */
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .original-price {
+            /* Styles for the original price */
+            color: #555;
+            /* Gray color for original price */
+            text-decoration: line-through;
+            /* Strikethrough effect */
+        }
+
+        .discounted-price {
+            /* Styles for the discounted price */
+            color: #e74c3c;
+            /* Red color for emphasis */
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .discount-tag {
+            /* Styles for the discount tag */
+            background-color: #3498db;
+            /* Blue color for emphasis */
+            color: #fff;
+            /* White text for visibility */
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Include the header content directly -->
+    <header>
+        <nav class="bg-blue-500 p-4">
+            <div class="container mx-auto">
+                <div class="flex justify-between items-center">
+                    <div class="text-white text-2xl font-semibold">LakshyaClasses</div>
+                    <ul class="flex space-x-4">
+                        <li><a href="index.html"
+                                class="text-white hover:text-blue-300 hover:cursor-pointer hover:text-lg hover:border-b-2 hover:border-blue-300 transition duration-300">Home</a>
+                        </li>
+                        </li>
+                        <li><a href="index.html"
+                                class="text-white hover:text-blue-300 hover:cursor-pointer hover:text-lg hover:border-b-2 hover:border-blue-300 transition duration-300">Courses</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white hover:text-blue-300 hover:cursor-pointer hover:text-lg hover:border-b-2 hover:border-blue-300 transition duration-300">About</a>
+                        </li>
+                        <li><a href="login.html"
+                                class="text-white hover:text-blue-300 hover:cursor-pointer hover:text-lg hover:border-b-2 hover:border-blue-300 transition duration-300">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div class="grid-container">
+
+        <div class="grid-course-index">
+            <header>
+                <h1>Basic Computer Skills Course</h1>
+            </header>
+
+            <section id="overview">
+                <h2>Course Overview</h2>
+                <p>
+                    This course is designed to introduce students to fundamental computer operations, providing a
+                    solid
+                    foundation for digital literacy and effective computer use.
+                </p>
+            </section>
+
+            <section id="modules">
+                <h2>Course Modules</h2>
+
+                <h3>1. Introduction to Computers</h3>
+                <p>
+                    An overview of different types of computers, their components, and their roles in our daily
+                    lives.
+                </p>
+
+                <h3>2. Using a Keyboard and Mouse</h3>
+                <p>
+                    Hands-on exercises to familiarize students with keyboard shortcuts, mouse operations, and basic
+                    typing
+                    skills.
+                </p>
+
+                <h3>3. Basic Software Applications</h3>
+                <p>
+                    Introduction to commonly used software applications, including word processors, spreadsheets,
+                    and
+                    presentation tools.
+                </p>
+
+                <h3>4. Digital Literacy</h3>
+                <p>
+                    Understanding online etiquette, internet safety, and responsible technology use.
+                </p>
+
+                <!-- Additional Modules -->
+
+            </section>
+
+            <section id="daily-work-software">
+                <h2>Daily Required Work Software</h2>
+
+                <ul>
+                    <li>Web Browsers (Chrome, Firefox, Safari)</li>
+                    <li>Email Clients (Outlook, Gmail)</li>
+                    <li>Word Processing Software (Microsoft Word, Google Docs)</li>
+                    <li>Spreadsheet Software (Microsoft Excel, Google Sheets)</li>
+                    <li>Presentation Software (Microsoft PowerPoint, Google Slides)</li>
+                    <li>Calendar and Scheduling Tools</li>
+                    <!-- Add more daily work software -->
+                </ul>
+            </section>
+
+            <section id="top-software-companies">
+                <h2>Top Software Companies and Products</h2>
+
+                <ol>
+                    <li>Microsoft - Windows OS, Microsoft Office</li>
+                    <li>Apple - macOS, iOS, iWork Suite</li>
+                    <li>Google - Chrome OS, G Suite</li>
+                    <!-- Add more companies and their products -->
+                </ol>
+            </section>
+
+            <section id="other-courses-summary">
+                <h2>Summary of Other Courses</h2>
+                <p>
+                    Explore our diverse range of courses, including those tailored for specific age groups, advanced
+                    programming,
+                    and specialized skills such as graphic design and game development.
+                </p>
+            </section>
+
+
+        </div>
+        <div class="grid-course-other">
+
+            <div class="instructor">
+                <h2>Instructor</h2>
+                <img src="../img/jitendra.jpg" alt="Instructor Photo" width="40%" height="50%">
+                <p>Name: Jitendra Kushwah</p>
+                <p>Work Experience: 12+ years in IT. </p>
+            </div>
+            <div class="ourse-info">
+                <h2>Course Information</h2>
+                <p>Course Level: Beginner</p>
+                <p>User Rating: 4.5/5</p>
+                <p>Duration: 8 weeks</p>
+                <p>Hours per Week: 2-3 hours</p>
+                <p>Certification: Yes</p>
+                <button class="enroll-button" onclick="location.href='#purchase-options'">Enroll Now</button>
+            </div>
+            <div class="course-info">
+                <div class="price-label">Price Level: Standard</div>
+                <div class="original-price">Original Price: ₹10,000</div>
+                <div class="discounted-price">Discounted Price: ₹3,000</div>
+                <div class="discount-tag">70% Discount</div>
+                <div class="limited-offer">Limited Offer</div>
+                <!-- Other course information goes here -->
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Your Educational Platform. All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>

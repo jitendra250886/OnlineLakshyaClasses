@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Computer Skills Course</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 75% 25%;
+            margin: 50px 50px;
+        }
+
+        .grid-course-index {
+            grid-column: 1 / 2;
+            background-color: lightblue;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+
+        .grid-course-other {
+            display: flex;
+            flex-direction: column;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+        .instructor,
+        .ourse-info {
+            height: fit-content;
+        }
+
+        .instructor {
+            background-color: lightgreen;
+        }
+
+        .ourse-info {
+            background-color: lightcoral;
+        }
+
+        .course-info {
+            /* Styles for the course information container */
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .course-info {
+            /* Styles for the course information container */
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            /* Center align the content */
+        }
+
+        .price-label {
+            /* Styles for the price labels */
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .original-price {
+            /* Styles for the original price */
+            color: #555;
+            /* Gray color for original price */
+            text-decoration: line-through;
+            /* Strikethrough effect */
+        }
+
+        .discounted-price {
+            /* Styles for the discounted price */
+            color: #e74c3c;
+            /* Red color for emphasis */
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .discount-tag {
+            /* Styles for the discount tag */
+            background-color: #3498db;
+            /* Blue color for emphasis */
+            color: #fff;
+            /* White text for visibility */
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Include the header content directly -->
+    <header>
+        <nav class="bg-blue-500 p-4">
+            <div class="container mx-auto">
+                <div class="flex justify-between items-center">
+                    <div class="text-white text-2xl font-semibold">LakshyaClasses</div>
+                    <ul class="flex space-x-4">
+                        <li><a href="index.html"
+                                class="text-white hover:text-blue-300 hover:cursor-pointer hover:text-lg hover:border-b-2 hover:border-blue-300 transition duration-300">Home</a>
+                        </li>
+                        </li>
+                        <li><a href="index.html"
+                                class="text-white hover:text-blue-300 hover:cursor-pointer hover:text-lg hover:border-b-2 hover:border-blue-300 transition duration-300">Courses</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-white hover:text-blue-300 hover:cursor-pointer hover:text-lg hover:border-b-2 hover:border-blue-300 transition duration-300">About</a>
+                        </li>
+                        <li><a href="login.html"
+                                class="text-white hover:text-blue-300 hover:cursor-pointer hover:text-lg hover:border-b-2 hover:border-blue-300 transition duration-300">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <div class="grid-container">
+
+        <div class="grid-course-index">
+
+            <h1>Class 6 NCERT Science Syllabus</h1>
+
+            <h2>Chapter 1: Food: Where Does It Come From?</h2>
+            <ul>
+                <li>What do Animals Eat?</li>
+                <li>What do Plants Need to Make Food?</li>
+                <li>Where Does Food Come From?</li>
+                <li>From Farm to Kitchen</li>
+                <li>Sorting of Food</li>
+            </ul>
+
+            <h2>Chapter 2: Components of Food</h2>
+            <ul>
+                <li>What are Nutrients?</li>
+                <li>What is a Balanced Diet?</li>
+                <li>Deficiency Diseases</li>
+                <li>Food and Health</li>
+            </ul>
+
+            <h2>Chapter 3: Fibre to Fabric</h2>
+            <ul>
+                <li>Types of Fibres</li>
+                <li>Silk</li>
+                <li>Woollen Clothes</li>
+                <li>Cotton</li>
+                <li>Synthetic Fibres</li>
+                <li>Synthetic Fibres and Plastics</li>
+            </ul>
+
+            <h2>Chapter 4: Sorting Materials into Groups</h2>
+            <ul>
+                <li>Objects Around Us</li>
+                <li>Properties of Materials</li>
+                <li>Objects Made of Materials</li>
+                <li>Metal</li>
+                <li>Non-Metal</li>
+            </ul>
+
+            <h2>Chapter 5: Separation of Substances</h2>
+            <ul>
+                <li>Methods of Separation</li>
+                <li>Handpicking</li>
+                <li>Threshing</li>
+                <li>Winnowing</li>
+                <li>Sieving</li>
+                <li>Sedimentation, Decantation, Filtration</li>
+                <li>Evaporation</li>
+                <li>Condensation</li>
+            </ul>
+
+            <!-- Continue with other chapters as per the NCERT Class 6 Science syllabus -->
+
+        </div>
+        <div class="grid-course-other">
+
+            <div class="instructor">
+                <h2>Instructor</h2>
+                <img src="../img/jitendra.jpg" alt="Instructor Photo" width="40%" height="50%">
+                <p>Name: Jitendra Kushwah</p>
+                <p>Work Experience: 12+ years in IT. </p>
+            </div>
+            <div class="ourse-info">
+                <h2>Course Information</h2>
+                <p>Course Level: Beginner</p>
+                <p>User Rating: 4.5/5</p>
+                <p>Duration: 8 weeks</p>
+                <p>Hours per Week: 2-3 hours</p>
+                <p>Certification: Yes</p>
+                <button class="enroll-button" onclick="location.href='#purchase-options'">Enroll Now</button>
+            </div>
+            <div class="course-info">
+                <div class="price-label">Price Level: Standard</div>
+                <div class="original-price">Original Price: ₹10,000</div>
+                <div class="discounted-price">Discounted Price: ₹3,000</div>
+                <div class="discount-tag">70% Discount</div>
+                <div class="limited-offer">Limited Offer</div>
+                <!-- Other course information goes here -->
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Your Educational Platform. All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>
